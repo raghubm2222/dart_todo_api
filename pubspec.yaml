@@ -1,5 +1,5 @@
 name: dart_todo_api
-description: An new Dart Frog application
+description: Manage tasks efficiently with our To-Do List API. Create, retrieve, update, and delete tasks effortlessly. Seamlessly integrate task management into your apps.
 version: 1.0.0+1
 publish_to: none
 
@@ -8,8 +8,11 @@ environment:
 
 dependencies:
   dart_frog: ^1.0.0
+  json_annotation: ^4.8.1
 
 dev_dependencies:
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
   mocktail: ^0.3.0
   test: ^1.19.2
   very_good_analysis: ^5.0.0
